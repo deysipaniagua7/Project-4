@@ -51,3 +51,16 @@ This project focuses on detecting fraudulent job postings using natural language
   Contextual embeddings (like BERT) greatly enhance model performance for NLP tasks.
   Simple models like logistic regression can still perform well when paired with strong features.
   Interpretable ML (TF-IDF + chi-squared) helps us explain model decisions and identify fraud indicators.
+
+## Repo Structure
+
+## References
+https://www.datacamp.com/tutorial/stemming-lemmatization-python
+https://medium.com/codex/properly-pickle-out-to-a-path-in-python-when-using-google-colab-741f0905e68b
+https://stackoverflow.com/questions/49206488/accessing-pickle-file-in-google-colab
+https://www.cbsnews.com/news/fake-job-listing-ghost-jobs-cbs-news-explains/
+https://www.learndatasci.com/glossary/tf-idf-term-frequency-inverse-document-frequency/
+https://www.geeksforgeeks.org/understanding-tf-idf-term-frequency-inverse-document-frequency/
+https://stackoverflow.com/questions/56311824/using-smote-on-training-data?utm_source=chatgpt.com
+https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/
+
