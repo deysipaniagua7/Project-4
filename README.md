@@ -59,7 +59,7 @@ https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
 ## Repo Structure
 Due file size limitations, we were unable to upload each Trial's .ipynb file output. Therefore, below is a brief description of our repo including each Trial's .ipynb file and their output:
 1. "Pickle_Coding": This file includes coding which allows users to load and open all pickle files.
-3. "Pipeline + Bert_Plain TF_IDF Output.xlsx": This .csv file contains 2 tables showcasing classifcation report and logistic regression results across all 4 trials.
+3. "Pipeline + Bert_Plain TF_IDF Output.xlsx": This .csv file contains 2 tables showcasing a classification report and logistic regression results across all 4 trials.
 4. "Project 4 Slides_FINAL.pptx":
 5. "Trial 1_Fake Job_100 Row Test_FINAL": This file was run on 100 rows of data. It included a logistic regression and a list of top 10 keywords for the first 3 test samples.
 6. "Trial 2_Fake Job_1000 Row Test_FINAL": This file was run on 1000 rows of data. It included the two tests from Trial 1 and a classifcation report.
@@ -68,9 +68,8 @@ Due file size limitations, we were unable to upload each Trial's .ipynb file out
 9. "Trial 4_red_flag_words_highlighted.xlsm":
 10. "Visualization notebook.ipynb":
 
-**Output Files not Included in our Repo*
-12. Output Coding: The .ipynb files for trials 2-4 contain coding which allows users to auto-save each model's "short_df.csv" and Pickle files locally and onto their Google drive.
-13. short_df.csv: When users run each trial's .ipynb file, this .csv file will auto-generate and save locally and onto their Google drive.
+**Output Files not Included in Our Repo*
+12. Output Coding: The .ipynb files for Trials 2-4 contain coding which allows users to generate and auto-save each model's "short_df.csv" and Pickle files locally and onto their Google drive.
 
 ## References
 https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/
