@@ -56,15 +56,21 @@ https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
   Simple models like logistic regression can still perform well when paired with strong features.
   Interpretable ML (TF-IDF + chi-squared) helps us explain model decisions and identify fraud indicators.
 
-## Trial .ipynb Files
-Due file size limitations, we were unable to upload the output of our .ipynb files. However, we have included a brief description of each Trial and Output Files below:
-1. Trial 1: This model was run on 100 rows of data and included a logistic regression and a list of top 10 keywords for the first 3 test samples.
-2. Trial 2: This model was run on 1000 rows of data and included the two tests from Trial 1 and a classifcation report.
-4. Trial 3: This model was run on the entire dataset and included a batch_size of 32 and all tests from Trial 2.
-5. Trial 4: This model followed the same procedure used in Trial 3 and included a chi-square test.
-6. Pickle Files: The "Picle_Coding was built into Trials 2-4 models to allow for auto-saving of 
-
 ## Repo Structure
+Due file size limitations, we were unable to upload each Trial's .ipynb file output. Therefore, below is a brief description of our repo including each Trial's .ipynb file and their output:
+1. "Pickle_Coding": This file includes coding which allows users to load and open all pickle files.
+3. "Pipeline + Bert_Plain TF_IDF Output.xlsx": This .csv file contains 2 tables showcasing classifcation report and logistic regression results across all 4 trials.
+4. "Project 4 Slides_FINAL.pptx":
+5. "Trial 1_Fake Job_100 Row Test_FINAL": This file was run on 100 rows of data. It included a logistic regression and a list of top 10 keywords for the first 3 test samples.
+6. "Trial 2_Fake Job_1000 Row Test_FINAL": This file was run on 1000 rows of data. It included the two tests from Trial 1 and a classifcation report.
+7. "Trial 3_Fake Job_All Row Test_FINAL": This file was run on the entire dataset. It included a batch_size of 32 and all tests from Trial 2.
+8. "Trial 4_Fake Job_All Row Test_FINAL" This file followed the same procedure used in Trial 3 and it included a chi-square test.
+9. "Trial 4_red_flag_words_highlighted.xlsm":
+10. "Visualization notebook.ipynb":
+
+**Output Files not Included in our Repo*
+12. Output Coding: The .ipynb files for trials 2-4 contain coding which allows users to auto-save each model's "short_df.csv" and Pickle files locally and onto their Google drive.
+13. short_df.csv: When users run each trial's .ipynb file, this .csv file will auto-generate and save locally and onto their Google drive.
 
 ## References
 https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/
