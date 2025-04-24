@@ -2,11 +2,11 @@
 
 ## Project Overview
 This project focuses on detecting fraudulent job postings using natural language processing (NLP) techniques. Leveraging the power of DistilBERT embeddings and a logistic regression classifier, we built a robust pipeline to analyze job description text and classify listings as either fraudulent or non-fraudulent.The main goal of this project is to identify fake job listings based solely on text data—helping protect users from scams and misleading offers.
----
+
 ## Dataset Source
 Due file size limitations, we were unable to upload a .csv file into our repo. Thus, we have provided the direct link to the dataset below:
 https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
----
+
 ## Workflow Summary
 ### 1. **Data Handling & Preprocessing**
 - Imported and explored the dataset  
