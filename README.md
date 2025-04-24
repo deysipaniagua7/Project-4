@@ -1,6 +1,6 @@
 # Project-4: Job Fraud Detection Using BERT & Logistic Regression
 ## Project Overview
-This project focuses on detecting fraudulent job postings using natural language processing (NLP) techniques. Leveraging the power of DistilBERT embeddings and a logistic regression classifier, we built a robust pipeline to analyze job description text and classify listings as either fraudulent or non-fraudulent.
+This project focuses on detecting fraudulent job postings using natural language processing (NLP) techniques. Leveraging the power of DistilBERT embeddings and a logistic regression classifier, we built a robust pipeline to analyze job description text and classify listings as either fraudulent or non-fraudulent.The main goal of this project is to identify fake job listings based solely on text data—helping protect users from scams and misleading offers.
 
 ## Dataset Source
 Due file size limitations, we were unable to upload a .csv file into our repo. Thus, we have provided the direct link to the dataset below:
@@ -9,8 +9,7 @@ https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
 ## Workflow Summary
 1. Data Handling & Preprocessing
 - Imported and explored the dataset  
-- Cleaned data:  
-  - Removed blank or zero-value rows and cells  
+- Cleaned data: Removed blank or zero-value rows and cells  
 - Text preprocessing with NLTK:  
   - Stopword removal  
   - Lemmatization (reducing words to root forms)  
@@ -43,13 +42,12 @@ https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
   - Processed datasets  
   - Feature selection results 
 
-6. Goal: The main goal of this project is to identify fraudulent job listings based solely on text data—helping protect users from scams and misleading offers.
--  Tech Stack & Libraries
-  - Transformers (HuggingFace) — DistilBERT model & tokenizer  
-  - PyTorch — for model inference  
-  - NLTK — text preprocessing  
-  - Scikit-learn — modeling, vectorization, evaluation  
-  - Pandas — data handling  
+6. Goal: Tech Stack & Libraries Used
+- Transformers (HuggingFace) — DistilBERT model & tokenizer  
+- PyTorch — for model inference  
+- NLTK — text preprocessing  
+- Scikit-learn — modeling, vectorization, evaluation  
+- Pandas — data handling  
 
 7. Key Takeaways
 - Contextual embeddings (like BERT) significantly boost NLP model performance  
