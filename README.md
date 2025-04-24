@@ -69,16 +69,16 @@ Due file size limitations, we were unable to upload each Trial's .ipynb file out
 10. "Visualization notebook.ipynb":
 
 **Output Files not Included in Our Repo*
-12. Output Coding: The .ipynb files for Trials 2-4 contain coding which allows users to generate and auto-save each model's "short_df.csv" and Pickle files locally and onto their Google drive.
+Output Coding: The .ipynb files for Trials 2-4 contain coding which allows users to generate and auto-save each model's "short_df.csv" and Pickle files locally and onto their Google drive.
 
 ## References
-https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/
-https://aws.amazon.com/what-is/nlp/#:~:text=Natural%20language%20processing%20(NLP)%20is%20critical%20to%20fully%20and%20efficiently,day%2Dto%2Dday%20conversations
-https://www.cbsnews.com/news/fake-job-listing-ghost-jobs-cbs-news-explains/
-https://www.datacamp.com/tutorial/stemming-lemmatization-python
-https://www.geeksforgeeks.org/understanding-tf-idf-term-frequency-inverse-document-frequency/
-https://github.com/resources/articles/ai/natural-language-processing
-https://www.indeed.com/career-advice/finding-a-job/how-to-know-if-a-job-is-a-scam
-https://www.learndatasci.com/glossary/tf-idf-term-frequency-inverse-document-frequency/
-https://medium.com/codex/properly-pickle-out-to-a-path-in-python-when-using-google-colab-741f0905e68b
-https://stackoverflow.com/questions/49206488/accessing-pickle-file-in-google-colab
+1: https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/
+2. https://aws.amazon.com/what-is/nlp/#:~:text=Natural%20language%20processing%20(NLP)%20is%20critical%20to%20fully%20and%20efficiently,day%2Dto%2Dday%20conversations
+3. https://www.cbsnews.com/news/fake-job-listing-ghost-jobs-cbs-news-explains/
+4. https://www.datacamp.com/tutorial/stemming-lemmatization-python
+5. https://www.geeksforgeeks.org/understanding-tf-idf-term-frequency-inverse-document-frequency/
+6. https://github.com/resources/articles/ai/natural-language-processing
+7. https://www.indeed.com/career-advice/finding-a-job/how-to-know-if-a-job-is-a-scam
+8. https://www.learndatasci.com/glossary/tf-idf-term-frequency-inverse-document-frequency/
+9. https://medium.com/codex/properly-pickle-out-to-a-path-in-python-when-using-google-colab-741f0905e68b
+10. https://stackoverflow.com/questions/49206488/accessing-pickle-file-in-google-colab
