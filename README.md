@@ -2,6 +2,10 @@
 ## Project Overview
 This project focuses on detecting fraudulent job postings using natural language processing (NLP) techniques. Leveraging the power of DistilBERT embeddings and a logistic regression classifier, we built a robust pipeline to analyze job description text and classify listings as either fraudulent or non-fraudulent.
 
+## Dataset Source
+Due file size limitations, we were unable to upload a .csv file into our repo. Thus, we have provided the direct link to the dataset below:
+https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
+
 ## Workflow Summary
 1. Data Handling & Preprocessing
   Imported and explored dataset
@@ -52,15 +56,24 @@ This project focuses on detecting fraudulent job postings using natural language
   Simple models like logistic regression can still perform well when paired with strong features.
   Interpretable ML (TF-IDF + chi-squared) helps us explain model decisions and identify fraud indicators.
 
+## Trial .ipynb Files
+Due file size limitations, we were unable to upload the output of our .ipynb files. However, we have included a brief description of each Trial and Output Files below:
+1. Trial 1: This model was run on 100 rows of data and included a logistic regression and a list of top 10 keywords for the first 3 test samples.
+2. Trial 2: This model was run on 1000 rows of data and included the two tests from Trial 1 and a classifcation report.
+4. Trial 3: This model was run on the entire dataset and included a batch_size of 32 and all tests from Trial 2.
+5. Trial 4: This model followed the same procedure used in Trial 3 and included a chi-square test.
+6. Pickle Files: The "Picle_Coding was built into Trials 2-4 models to allow for auto-saving of 
+
 ## Repo Structure
 
 ## References
+https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/
+https://aws.amazon.com/what-is/nlp/#:~:text=Natural%20language%20processing%20(NLP)%20is%20critical%20to%20fully%20and%20efficiently,day%2Dto%2Dday%20conversations
+https://www.cbsnews.com/news/fake-job-listing-ghost-jobs-cbs-news-explains/
 https://www.datacamp.com/tutorial/stemming-lemmatization-python
+https://www.geeksforgeeks.org/understanding-tf-idf-term-frequency-inverse-document-frequency/
+https://github.com/resources/articles/ai/natural-language-processing
+https://www.indeed.com/career-advice/finding-a-job/how-to-know-if-a-job-is-a-scam
+https://www.learndatasci.com/glossary/tf-idf-term-frequency-inverse-document-frequency/
 https://medium.com/codex/properly-pickle-out-to-a-path-in-python-when-using-google-colab-741f0905e68b
 https://stackoverflow.com/questions/49206488/accessing-pickle-file-in-google-colab
-https://www.cbsnews.com/news/fake-job-listing-ghost-jobs-cbs-news-explains/
-https://www.learndatasci.com/glossary/tf-idf-term-frequency-inverse-document-frequency/
-https://www.geeksforgeeks.org/understanding-tf-idf-term-frequency-inverse-document-frequency/
-https://stackoverflow.com/questions/56311824/using-smote-on-training-data?utm_source=chatgpt.com
-https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/
-
