@@ -8,53 +8,53 @@ https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
 
 ## Workflow Summary
 1. Data Handling & Preprocessing
-  Imported and explored dataset
-  Cleaned data: removed blank or zero-value rows and cells
-  Text pre-processing with nltk:
-  Stopword removal
-  Lemmatization (reducing words to their root forms)
-  General text cleaning
+- Imported and explored the dataset  
+- Cleaned data:  
+  - Removed blank or zero-value rows and cells  
+- Text preprocessing with NLTK:  
+  - Stopword removal  
+  - Lemmatization (reducing words to root forms)  
+  - General text cleaning  
 
 2. Text Embedding
-  Loaded DistilBERT and its tokenizer for efficiency and accuracy
-  Created a custom BertEmbedder class to:
-  Tokenize job description text
-  Process text in batches
-  Generate contextual BERT embeddings
-  Transformed job descriptions into meaningful numerical vectors
+- Loaded DistilBERT and tokenizer for efficient and accurate embeddings  
+- Created a custom `BertEmbedder` class to:  
+  - Tokenize job description text  
+  - Process text in batches  
+  - Generate contextual BERT embeddings  
+- Transformed job descriptions into meaningful numerical vectors  
 
 3. Feature Extraction & Engineering
-  TF-IDF Vectorization to capture important term patterns
-  Chi-squared feature selection to identify high-signal (red flag) words associated with fraud
-  Added a new column containing BERT-generated features for each job post
+- Applied TF-IDF vectorization to capture important term patterns  
+- Used chi-squared feature selection to identify high-signal words linked to fraud  
+- Added a new column with BERT-generated features for each job post  
 
 4. Modeling & Evaluation
-  Split data into training and test sets
-  Built a pipeline that integrates embedding, feature processing, and classification
-  Trained a logistic regression model to classify postings
-  Evaluated the model using classification reports (precision, recall, F1-score)
-  Identified top 10 keywords for the first three test samples for interpretability
+- Split data into training and test sets  
+- Built a pipeline combining embedding, feature processing, and classification  
+- Trained a logistic regression model to detect fraudulent listings  
+- Evaluated model using classification report (precision, recall, F1-score)  
+- Extracted top 10 keywords for interpretability from the first 3 test samples 
 
 5. Output & Serialization
-  Saved: Trained model
-  TF-IDF vectorizer
-  Processed datasets
-  Feature selection results
-  as .pkl files for future use and deployment
+- Saved the following as `.pkl` files for reuse and deployment:  
+  - Trained model  
+  - TF-IDF vectorizer  
+  - Processed datasets  
+  - Feature selection results 
 
-6. Goal
-  The main goal of this project is to identify fraudulent job listings based solely on text data—helping protect users from scams and misleading offers.
-  Tech Stack & Libraries
-  Transformers (HuggingFace) — DistilBERT model & tokenizer
-  PyTorch — for model inference
-  NLTK — text pre-processing
-  Scikit-learn — modeling, vectorization, evaluation
-  Pandas — data handling
+6. Goal: The main goal of this project is to identify fraudulent job listings based solely on text data—helping protect users from scams and misleading offers.
+-  Tech Stack & Libraries
+  - Transformers (HuggingFace) — DistilBERT model & tokenizer  
+  - PyTorch — for model inference  
+  - NLTK — text preprocessing  
+  - Scikit-learn — modeling, vectorization, evaluation  
+  - Pandas — data handling  
 
 7. Key Takeaways
-  Contextual embeddings (like BERT) greatly enhance model performance for NLP tasks.
-  Simple models like logistic regression can still perform well when paired with strong features.
-  Interpretable ML (TF-IDF + chi-squared) helps us explain model decisions and identify fraud indicators.
+- Contextual embeddings (like BERT) significantly boost NLP model performance  
+- Simple models (e.g., logistic regression) perform well with strong features  
+- Interpretable ML (TF-IDF + chi-squared) explains predictions and highlights fraud indicators
 
 ## Repo Structure
 Due file size limitations, we were unable to upload each Trial's .ipynb file output. Therefore, below is a brief description of our repo including each Trial's .ipynb file and their output:
