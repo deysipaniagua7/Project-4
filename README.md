@@ -56,20 +56,28 @@ https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
 - Interpretable ML (TF-IDF + chi-squared) explains predictions and highlights fraud indicators
 
 ## Repo Structure
-Due file size limitations, we were unable to upload each Trial's .ipynb file output. Therefore, below is a brief description of our repo including each Trial's .ipynb file and their output:
-- **"Pickle_Coding"**: This file includes coding which allows users to load and open all pickle files.  
-- **"Pipeline + Bert_Plain TF_IDF Output.xlsx"**: This .csv file contains 2 tables showcasing a classification report and logistic regression results across all 4 trials.  
-- **"Project 4 Slides_FINAL.pptx"**: 
-- **"Trial 1_Fake Job_100 Row Test_FINAL"**: This file was run on 100 rows of data. It included a logistic regression and a list of top 10 keywords for the first 3 test samples.  
-- **"Trial 2_Fake Job_1000 Row Test_FINAL"**: This file was run on 1000 rows of data. It included the two tests from Trial 1 and a classification report.  
-- **"Trial 3_Fake Job_All Row Test_FINAL"**: This file was run on the entire dataset. It included a batch size of 32 and all tests from Trial 2.  
-- **"Trial 4_Fake Job_All Row Test_FINAL"**: This file followed the same procedure used in Trial 3 and it included a chi-square test.  
-- **"Trial 4_red_flag_words_highlighted.xlsm"**: 
-- **"Visualization notebook.ipynb"**: 
+Due to file size limitations, we were unable to upload the output of each Trial's .ipynb file. Below is a brief description of the repo structure, including each Trial's .ipynb file and their outputs:
 
-**Output Files not Included in Our Repo*
-- Output Coding: The .ipynb files for Trials 2-4 contain coding which allows users to generate and auto-save each model's "short_df.csv" and Pickle files locally and onto their Google drive.
+"Pickle_Coding": Contains code to load and open all pickle files.
 
+"Pipeline + Bert_Plain TF_IDF Output.xlsx": A .csv file with two tables showcasing classification reports and logistic regression results across all 4 trials.
+
+"Project 4 Slides_FINAL.pptx": Final presentation slides.
+
+"Trial 1_Fake Job_100 Row Test_FINAL": Ran on 100 rows of data, includes logistic regression and top 10 keywords for the first 3 test samples.
+
+"Trial 2_Fake Job_1000 Row Test_FINAL": Ran on 1000 rows, includes tests from Trial 1 and a classification report.
+
+"Trial 3_Fake Job_All Row Test_FINAL": Ran on the entire dataset with a batch size of 32, including all tests from Trial 2.
+
+"Trial 4_Fake Job_All Row Test_FINAL": Similar procedure to Trial 3, with the addition of a chi-square test.
+
+"Trial 4_red_flag_words_highlighted.xlsm": Contains the highlighted red-flag words.
+
+"Visualization notebook.ipynb": Includes visualizations of the results.
+
+Output Files Not Included
+Output Coding: Trials 2-4 .ipynb files contain code for generating and auto-saving "short_df.csv" and Pickle files locally and to Google Drive.
 ## References
 - https://www.analyticsvidhya.com/blog/2020/10/overcoming-class-imbalance-using-smote-techniques/-
 -  https://aws.amazon.com/what-is/nlp/#:~:text=Natural%20language%20processing%20(NLP)%20is%20critical%20to%20fully%20and%20efficiently,day%2Dto%2Dday%20conversations
